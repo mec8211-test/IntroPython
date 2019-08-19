@@ -1,7 +1,7 @@
 ##############################################################################
 #
 #         Le langage de programmation Python - Introduction
-#         Jean-Yves Trépanier et Eddy Petro - Septembre 2019
+#         Jean-Yves Trépanier et Eddy Petro - Aout 2019
 #
 ##############################################################################
 
