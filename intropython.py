@@ -67,7 +67,7 @@ pause()
 #-------------------------------------------------#
 
 # Déclaration de types 
-x = 11                         # integer1
+x = 12                         # integer1
 x = 10.                        # float
 x = '10.0'                     # string        
 
