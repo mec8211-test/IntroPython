@@ -30,8 +30,9 @@ a = np.absolute(-10)
 b = np.pi
 c = np.cos(b)
 d = np.sin(b/2)
+e=np.log(10)
 print('Appels divers à Numpy')
-print('absolute(-10)',a,'pi',b,'cos(pi)',c,'sin(pi/2)',d)
+print('absolute(-10)',a,'pi',b,'cos(pi)',c,'sin(pi/2)',d,'log(1)',e)
 
 pause()
 
@@ -115,7 +116,7 @@ print(x)
 x += 3
 print(x)
 # Opération x = x - 3
-x -= 3
+x = x - 3
 print(x)
 # Opération x = x * 3
 x *= 3
@@ -441,7 +442,10 @@ import matplotlib.pyplot as plt
 import scipy.interpolate
 
 # Generate data:
-x, y, z = 10 * np.random.random((3,10))
+x=np.array((1,2,3,4,5,6,7,8,9))
+y=2*x
+z=np.cos(x*y)
+
 
 # Set up a regular grid of interpolation points
 xi, yi = np.linspace(x.min(), x.max(), 100), np.linspace(y.min(), y.max(), 100)
