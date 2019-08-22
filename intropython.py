@@ -68,7 +68,7 @@ pause()
 
 # Déclaration de types 
 x = 12                         # integer1
-x = 20.                        # float
+x = 21.                        # float
 x = '10.0'                     # string        
 
 # Déterminer le type d'une variable et afficher
