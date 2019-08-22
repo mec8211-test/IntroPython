@@ -67,8 +67,12 @@ pause()
 #-------------------------------------------------#
 
 # Déclaration de types 
+<<<<<<< HEAD
 x = 13                         # integer1
 x = 20.                        # float
+=======
+x = 12                         # integer1
+>>>>>>> 1f05c97f082a266698d859e3dc1a9b2575479835
 x = '10.0'                     # string        
 
 # Déterminer le type d'une variable et afficher
