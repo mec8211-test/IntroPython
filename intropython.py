@@ -26,6 +26,7 @@ pause()
 
 
 # Exemples d'appels de méthodes contenues dans un module spécialisé numpy
+<<<<<<< HEAD
 a = np.absolute(-10)
 b = np.pi
 c = np.cos(b)
@@ -33,6 +34,14 @@ d = np.sin(b/2)
 e=np.log(10)
 print('Appels divers à Numpy')
 print('absolute(-10)',a,'pi',b,'cos(pi)',c,'sin(pi/2)',d,'log(1)',e)
+=======
+aaa = np.absolute(-10)
+bbb = np.pi
+ccc = np.cos(b)
+ddd = np.sin(b/2)
+print('Appels divers à Numpy')
+print('absolute(-10)',aaa,'pi',bbb,'cos(pi)',ccc,'sin(pi/2)',ddd)
+>>>>>>> c40ea29ec56b2c1a78db99207b0f21fed15ce6e7
 
 pause()
 
